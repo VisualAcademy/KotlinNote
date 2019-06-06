@@ -1,0 +1,26 @@
+﻿using System;
+using System.Linq;
+
+class SeeSharp
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello C#");
+
+        var numbers = Enumerable.Range(1, 5);
+
+        foreach (var num in numbers) 
+        {
+            Console.WriteLine(num);
+        }
+
+        var nums = numbers
+            .Where(n => n % 2 == 0)
+            .Select(it => it * it);
+        
+        foreach (var num in nums) 
+        {
+            Console.WriteLine(num); // 4, 16
+        }
+    }
+}
