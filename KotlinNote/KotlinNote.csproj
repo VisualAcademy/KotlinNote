@@ -1,8 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Algorithms\01_SumAlgorithm\" />
+    <Folder Include="Algorithms\02_CountAlgorithm\" />
+    <Folder Include="Algorithms\03_AverageAlgorithm\" />
+    <Folder Include="Algorithms\04_MaxAlgorithm\" />
+    <Folder Include="Algorithms\05_MinAlgorithm\" />
+    <Folder Include="Algorithms\06_NearAlgorithm\" />
+    <Folder Include="Algorithms\07_RankAlgorithm\" />
+    <Folder Include="Algorithms\08_SortAlgorithm\" />
+    <Folder Include="Algorithms\09_SearchAlgorithm\" />
+    <Folder Include="Algorithms\10_ModeAlgorithm\" />
+    <Folder Include="Algorithms\11_MergeAlgorithm\" />
+    <Folder Include="Algorithms\12_GroupAlgorithm\" />
+  </ItemGroup>
 
 </Project>
