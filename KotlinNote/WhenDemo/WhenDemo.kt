@@ -6,5 +6,6 @@ fun main(args: Array<String>) {
 	{
 		1 -> println("하나")
 		2 -> println("둘")
+		else -> println("기타")
 	}
 }
