@@ -14,4 +14,7 @@ fun main(args: Array<String>) {
 	for (c in "HelloWorld") {
 		println(c);
 	}
+	for (item in 1.rageTo(5).step(2)) {
+		println(item); 
+	}
 }
