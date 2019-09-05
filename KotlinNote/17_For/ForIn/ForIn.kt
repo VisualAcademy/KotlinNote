@@ -11,4 +11,7 @@ fun main(args: Array<String>) {
     for (i in 1 until 5) {
         println(i);
     }    
+	for (c in "HelloWorld") {
+		println(c);
+	}
 }

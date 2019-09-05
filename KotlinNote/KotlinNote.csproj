@@ -7,10 +7,6 @@
 
   <ItemGroup>
     <Folder Include="06_Number\" />
-    <Folder Include="07_BoolCharString\" />
-    <Folder Include="08_ReadLine\" />
-    <Folder Include="09_Operator\" />
-    <Folder Include="10_AssignmentIncrement\" />
   </ItemGroup>
 
 </Project>
